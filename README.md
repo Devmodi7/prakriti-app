@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+AyurHealth – Ayurvedic Prakriti Analysis App
+Description
+AyurHealth is a modern React + Vite web app that analyzes an individual’s Prakriti (Vata, Pitta, Kapha) using a short questionnaire and presents simple, personalized insights. Users can create a lightweight profile, save results in the browser, and revisit past outcomes anytime. The UI is clean, mobile‑friendly, and ideal for demos, internships, or portfolio work.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Installation
+Clone the repository
+git clone https://github.com/Devmodi7/prakriti-app
 
-## Available Scripts
+Enter the folder
+cd ayurhealth-prakriti-app
 
-In the project directory, you can run:
+Install dependencies
+npm install
 
-### `npm start`
+Start the dev server
+npm run dev
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+How to Run
+Open the URL printed in your terminal (e.g., http://localhost:3001). You’ll land on Home, then navigate to Prakriti Analysis, Profile, Dashboard/Follow‑Ups as needed.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Technologies
+React 18, React Router v6
 
-### `npm test`
+Vite (fast dev server, HMR, optimized builds)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+JavaScript (ES6+), CSS
 
-### `npm run build`
+localStorage for client‑side persistence
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Features
+Identify dominant Prakriti (Vata, Pitta, Kapha) from quiz responses
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Save and view user profiles locally
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Minimal, responsive UI with smooth navigation
 
-### `npm run eject`
+Sections for Dashboard/Follow‑Ups and basic notes
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Ready to extend with tips, charts, or a backend
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Author
+Your Name- Dev Modi
+Email: your-dev75925@gmail.com
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+License
+MIT License
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Repository slug example: username/ayurhealth-prakriti-app
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This concise README matches the format you shared, uses Vite commands (npm run dev), and stays under 300 words so it fits typical submission requirements.
